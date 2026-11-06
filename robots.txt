@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TO_CONFIRM: replace YOUR-DOMAIN with the final domain once it is known
+Sitemap: https://YOUR-DOMAIN/sitemap.xml

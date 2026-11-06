@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gallery | Three Cinnamons, Lusaka</title>
+<meta name="description" content="Photos of cinnamon rolls, coffee and the Three Cinnamons spot at Agora Village, Lusaka.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Three Cinnamons">
+<meta property="og:title" content="Gallery | Three Cinnamons">
+<meta property="og:description" content="A look at our rolls, drinks and space in Lusaka.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="theme-color" content="#2b1810">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>body{opacity:1}.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body data-page="gallery">
+<div id="site-header"></div>
+<noscript><nav style="padding:14px;background:#fbf6ea"><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="menu.html">Menu</a> · <a href="gallery.html">Gallery</a> · <a href="offers.html">Offers</a> · <a href="contact.html">Contact</a></nav></noscript>
+<main id="main">
+  <section class="page-hero" data-banner="banner-gallery">
+    <div class="wrap"><p class="eyebrow">Gallery</p><h1>A look inside.</h1><p>Our rolls, our drinks and our corner of Agora Village.</p></div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="notice" id="galleryNote"><span><strong>Photos coming soon.</strong> We're adding real photos of our food and space. Tiles marked "Photo coming soon" will be replaced with them. Any licensed stock image added later will be labelled as a stock photo.</span></div>
+      <div class="tabs" id="galleryTabs" role="group" aria-label="Filter gallery"></div>
+      <div class="grid-gallery" id="galleryMount"></div>
+    </div>
+  </section>
+  <section id="credits" class="bg-cream" style="padding:50px 0">
+    <div class="wrap">
+      <h3 style="margin-bottom:8px">Photo credits</h3>
+      <p class="map-note" style="margin:0 0 14px">Stock photos from <a href="https://unsplash.com/?utm_source=three_cinnamons_demo&amp;utm_medium=referral" target="_blank" rel="noopener" style="text-decoration:underline">Unsplash</a> (free licence), by:</p>
+      <ul id="creditsList" style="list-style:none;display:flex;flex-wrap:wrap;gap:8px 22px;color:var(--cinnamon);font-weight:600"></ul>
+    </div>
+  </section>
+</main>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-btn lb-close" aria-label="Close">&times;</button>
+  <button class="lb-btn lb-prev" aria-label="Previous photo">&#8249;</button>
+  <figure><img id="lbImg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-btn lb-next" aria-label="Next photo">&#8250;</button>
+</div>
+<div id="site-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
